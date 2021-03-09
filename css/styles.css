@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --titles-text-color: rgba(33, 33, 33, 1);
+  --white-color:  rgba(255, 255, 255, 1);
+  --ourteam-bgc-color: rgba(245, 244, 250, 1);
+  --footer-color: rgba(47, 48, 58, 1);
+  --active-color: rgba(33, 150, 243, 1);
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family:  Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+a:hover, :focus{
+  color: var(--active-color);
+  cursor: pointer;
+}
+
+/* шапка */
+.logo{
+  color: var(--titles-text-color);
+}
+.link-nav{
+  color: var(--titles-text-color);
+}
+
+.active{
+  color: var(--active-color);
+}
+
+/* main*/
+
+/* hero */
+.hero-text{
+  color:;
+  text-transform: uppercase;
+}
+.button-hero{
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+/* особливості */
+.features{
+  color: var(--titles-text-color);
+  text-transform: uppercase;
+}
+
+/* чим займаємось */
+
+.title{
+  color: var(--titles-text-color);
+}
+
+/* наша команда */
+.titles-team{
+  color: var(--titles-text-color);
+}
+
+
+/* footer */
+
+.footer{
+  background-color: var(--footer-color);
+}
+.logo-footer{
+  color: rgba(255, 255, 255, 1);
+}
+.adress{
+  color: rgba(255, 255, 255, 1);
+}
+
+/* portfolio */
+
+/* кнопки фільтрації */
+.button-portfolio{
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+/* зображення */
+.title-images{
+  color: var(--titles-text-color);
+}
